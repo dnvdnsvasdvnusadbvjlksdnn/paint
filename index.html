@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="toolbar">
+        <input type="file" id="image-upload" accept="image/*">
+        <button id="clear-button">Clear</button>
+        <input type="color" id="color-picker" value="#000000">
+        <input type="range" id="brush-size" min="1" max="50" value="10">
+        <button id="pencil-tool" class="button">Pencil</button>
+        <button id="eraser-tool" class="button">Eraser</button>
+        <button id="rectangle-tool" class="button">Rectangle</button>
+        <button id="line-tool" class="button">Line</button>
+        <button id="save-button" class="button">Save</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
